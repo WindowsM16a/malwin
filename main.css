@@ -1,0 +1,119 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  backdrop-filter: blur(7px);
+  font-family: "Sitka", "Sitka Banner Bold", "Sitka Display", "Sitka Banner",
+    Verdana, serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imagex{
+    width: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.473);
+  border: 0.2px solid rgba(166, 224, 255, 0.514);
+  border-radius: 20px;
+  height: 85vh;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(68, 36, 36, 0.15);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 8px 0;
+  padding: 10px;
+  border: 0.1px solid rgba(0, 0, 0, 0.501);
+  border-radius: 15px;
+  width: 90%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, o.1);
+}
+
+::placeholder {
+  color: rgba(187, 187, 187, 0.686);
+}
+
+label {
+  font-size: 12px;
+  color: #666;
+  width: 10px;
+}
+
+.loginButton {
+  background-color: rgb(57, 115, 192);
+  display: block;
+  margin: auto;
+  color: whitesmoke;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 225px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.loginButton:hover {
+  background-color: rgb(43, 90, 151);
+}
+
+
+.externalLogin {
+  align-self: center;
+  background-color: rgba(245, 245, 245, 0.564);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 18px;
+  width: 190px;
+  margin: 20px;
+  border: 0.0001px solid #90909032;
+  cursor: pointer;
+}
+
+.externalLogin img {
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  background: transparent;
+}
+
+.externalLogin:hover {
+  background-color: #666;
+}
+
+.signUp{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 35px;
+}
