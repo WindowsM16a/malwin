@@ -1,6 +1,6 @@
 body {
     background-image: url(background.jpg);
-    background-size: cover;
+    background-size: inherit;
     backdrop-filter: blur(7px);
     font-family: "Sitka", "Sitka Banner Bold", "Sitka Display", "Sitka Banner",
       Verdana, serif;
@@ -12,6 +12,8 @@ body {
     align-items: center;
     height: 100vh;
   }
+
+  
   
   .imagex{
       width: 90px;
@@ -82,21 +84,9 @@ body {
   }
   
   
-  .externalLogin {
-    align-self: center;
-    background-color: rgba(245, 245, 245, 0.564);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 15px;
-    border-radius: 18px;
-    width: 190px;
-    margin: 7px;
-    border: 0.0001px solid #90909032;
-    cursor: pointer;
-  }
+
   
-  .externalLogin img {
+  .externalLoginGoogle img {
     width: 20px;
     align-items: center;
     justify-content: center;
@@ -106,15 +96,10 @@ body {
 
 
   
-  .externalLogin:hover {
-    background-color: #666;
+  .externalLoginGoogle:hover {
+    background-color: #969595b8;
   }
   
-  .signUp{
-      text-align: center;
-      margin-top: 20px;
-      padding-top: 0px;
-  }
   
   h2 {
     text-align: left;

@@ -1,4 +1,4 @@
-.externalLogin {
+.externalLoginGoogle {
     align-self: center;
     background-color: rgba(245, 245, 245, 0.564);
     display: flex;
@@ -8,6 +8,63 @@
     border-radius: 18px;
     width: 190px;
     margin: 7px;
+    margin-bottom: 4px;
     border: 0.0001px solid #90909032;
     cursor: pointer;
+}
+
+.externalLoginApple {
+    align-self: center;
+    background-color: rgba(245, 245, 245, 0.564);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 18px;
+    width: 190px;
+    margin: 7px;
+    margin-bottom: 15px;
+    border: 0.0001px solid #90909032;
+    cursor: pointer;
+}
+
+.externalLoginGoogle img {
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    background: transparent;
+}
+
+.externalLoginApple img {
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    background: transparent;
+}
+
+.externalLoginGoogle:hover {
+    background-color: #969595b8;
+}
+
+.externalLoginApple:hover {
+    background-color: #969595b8;
+}
+
+.forgottenPassword{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+
+.signUp{
+    text-align: center;
+    margin: 2px;
+    margin-bottom: 15px;
+    padding: 1px;
+    padding-bottom: 30PX;
+
 }
