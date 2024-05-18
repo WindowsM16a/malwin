@@ -1,62 +1,45 @@
-.externalLoginGoogle {
-    align-self: center;
-    background-color: rgba(245, 245, 245, 0.564);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 15px;
-    border-radius: 18px;
-    width: 190px;
-    margin: 0px;
-    border: 0.0001px solid #90909032;
-    cursor: pointer;
+form{
+  background-color: rgba(255, 255, 255, 0.473);
+  border: 0.2px solid rgba(166, 224, 255, 0.514);
+  border-radius: 23px;
+  height: 78vh;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(68, 36, 36, 0.15);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.externalLoginApple {
-    align-self: center;
-    background-color: rgba(245, 245, 245, 0.564);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 15px;
-    border-radius: 18px;
-    width: 190px;
-    margin: 7px;
-    border: 0.0001px solid #90909032;
-    cursor: pointer;
+.externalLoginGoogle, .externalLoginApple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.564);
+  padding: 8px 15px;
+  border-radius: 18px;
+  width: 190px;
+  margin: 6px auto; 
+  border: 0.0001px solid #90909032;
+  cursor: pointer;
 }
 
-.externalLoginGoogle img {
-    width: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: 2px;
-    background: transparent;
-  }
+.externalLoginGoogle img, .externalLoginApple img {
+  width: 20px;
+  margin-right: 10px; 
+}
 
-  .externalLoginGoogle:hover {
-    background-color: #969595b8;
-  }
-
-  .externalLoginApple img {
-    width: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: 2px;
-    background: transparent;
-  }
-
-  .externalLoginApple:hover {
+  .externalLoginGoogle:hover , .externalLoginApple:hover{
     background-color: #969595b8;
   }
 
 .signUp{
     text-align: center;
     margin: 2px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 1px;
-    padding-bottom: 30PX;
-
+    padding-bottom: 10PX;
 }
 
 .signUpH2 {
@@ -85,4 +68,12 @@
     margin-bottom: 15px;
     padding: 1px;
     padding-bottom: 30PX;
+}
+
+.malwinLogo{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -70px;
 }

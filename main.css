@@ -16,14 +16,11 @@ body {
   
   
   .malwinLogo{
-      width: 90px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 0px;
-      padding-bottom: 0px;
-      padding: 0px;
-      border: 0px;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
   }
   
   form{
@@ -56,7 +53,7 @@ body {
   
   ::placeholder {
     color: rgba(187, 187, 187, 0.686);
-  }
+  } 
   
   label {
     font-size: 12px;
@@ -64,20 +61,7 @@ body {
     width: 10px;
   }
   
-  .signUpButton {
-    background-color: rgb(57, 115, 192);
-    display: block;
-    margin: auto;
-    color: whitesmoke;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-bottom: 18px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    width: 225px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
+
   
   .loginButton:hover {
     background-color: rgb(43, 90, 151);
@@ -86,22 +70,7 @@ body {
   
 
   
-  .externalLoginGoogle img {
-    width: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: 2px;
-    background: transparent;
-  }
-
 
   
-  .externalLoginGoogle:hover {
-    background-color: #969595b8;
-  }
   
-  
-.loginH2 {
-    text-align: left;
-    font-size: 35px;
-  }
+
