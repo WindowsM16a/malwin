@@ -1,6 +1,6 @@
 form{
-  background-color: rgba(255, 255, 255, 0.473);
-  border: 0.2px solid rgba(166, 224, 255, 0.514);
+  background-color: rgba(255, 255, 255, 0.293);
+  border: 0.2px solid rgba(255, 255, 255, 0);
   border-radius: 23px;
   height: 78vh;
   width: 300px;
@@ -52,6 +52,7 @@ form{
     display: block;
     margin: auto;
     color: whitesmoke;
+    font-size: 17px;
     padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 18px;

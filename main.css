@@ -1,9 +1,8 @@
 body {
     background-image: url(background.jpg);
-    background-size: inherit;
+    background-size: cover;
     backdrop-filter: blur(7px);
-    font-family: "Sitka", "Sitka Banner Bold", "Sitka Display", "Sitka Banner",
-      Verdana, serif;
+    font-family: "century gothic";
     margin: 0px;
     padding: 0px;
     display: flex;
