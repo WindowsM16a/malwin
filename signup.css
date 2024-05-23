@@ -53,7 +53,7 @@ form{
     margin: auto;
     color: whitesmoke;
     font-size: 17px;
-    padding: 10px 20px;
+    padding: 9px 10px;
     margin-top: 20px;
     margin-bottom: 18px;
     border: none;
@@ -77,4 +77,16 @@ form{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -70px;
+}
+
+.emailTag{
+  color: rgb(81, 81, 81);
+} 
+
+.passwordTag{
+  color: rgb(43, 43, 43);
+}
+
+.repeatPasswordTag{
+  color: rgb(43, 43, 43);
 }
