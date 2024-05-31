@@ -1,7 +1,8 @@
 body {
-    background-image: url(background.jpg);
+    background-image: url(R.jpeg);
     background-size: cover;
-    backdrop-filter: blur(7px);
+    background-position: 80% 10%;
+    backdrop-filter: blur(1px);
     font-family: "century gothic";
     margin: 0px;
     padding: 0px;
@@ -11,12 +12,6 @@ body {
     align-items: center;
     height: 100vh;
   }
-
-  
-  
-
-  
-
   
   p {
     align-items: center;
@@ -41,8 +36,6 @@ body {
     color: #666;
     width: 10px;
   }
-  
-
   
   .loginButton:hover {
     background-color: rgb(43, 90, 151);

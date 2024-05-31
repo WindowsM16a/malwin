@@ -1,6 +1,6 @@
 form{
-  background-color: rgba(255, 255, 255, 0.293);
-  border: 0.2px solid rgba(255, 255, 255, 0);
+  background-color: rgba(168, 190, 209, 0.5);
+  border: 0.2px solid rgba(112, 112, 112, 0);
   border-radius: 23px;
   height: 78vh;
   width: 300px;
@@ -80,14 +80,14 @@ form{
 }
 
 .emailTag{
-  color: rgb(81, 81, 81);
+  color: rgb(0, 0, 0);
 } 
 
 .passwordTag{
-  color: rgb(43, 43, 43);
+  color: rgb(0, 0, 0);
 }
 
 .repeatPasswordTag{
-  color: rgb(43, 43, 43);
+  color: rgb(0, 0, 0);
 }
 
